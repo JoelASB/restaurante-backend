@@ -14,4 +14,6 @@
 
 **Tu predicción:** 
 *   **Joel:** En el caso de las mesas, la IA creará un archivo separado para el enum `EstadoMesa` dado que es un tipo de dato específico del módulo.
-*   **Paolo:** 
+*   **Paolo:** Tal como lo definimos en el prompt brindado en el documento, mesas contara con enums de :  DISPONIBLE = 'disponible',
+  OCUPADA = 'ocupada',
+  RESERVADA = 'reservada', a diferencia de platos este tiene un solo valor, booleano y estado mesa esos 3 string
