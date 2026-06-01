@@ -9,3 +9,4 @@ Este checklist verifica que la IA haya generado correctamente el código según 
 - [X] **R5:** ¿El controlador expone `PATCH /mesas/:id/estado`?
 - [X] **R6:** ¿Los DTOs validan que 'estado' solo acepte los valores del enum?
 - [X] **R7:** ¿La IA modificó archivos que NO le pedimos? ¿Cuáles?
+- [X] **R8:** ¿Hay algo en el código que ninguno de los dos entiende?
