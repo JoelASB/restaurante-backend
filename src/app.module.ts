@@ -4,7 +4,7 @@ import { join } from 'path';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { PlatosModule } from './platos/platos.module';
-//import { MesasModule } from './mesas/mesas.module';
+import { MesasModule } from './mesas/mesas.module';
 
 @Module({
   imports: [
@@ -15,7 +15,7 @@ import { PlatosModule } from './platos/platos.module';
       synchronize: true,
     }),
     PlatosModule,
-    //MesasModule,
+    MesasModule,
   ],
   controllers: [AppController],
   providers: [AppService],
