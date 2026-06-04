@@ -1,19 +1,16 @@
-# PREDICCIONES DIA 1
+## PREDICCIÓN 3
+Escribir ANTES de ver el resultado:
+Pedidos necesita relaciones con Platos y Mesas. ¿La IA usará @ManyToOne para Mesa y @ManyToMany para Platos? ¿O inventará otra estructura? ¿Modificará las entidades de Platos y Mesas para agregar el lado inverso de la relación?
 
-## ✍️ Predicción — Bloque B
-### ANTES de que Cursor termine: ¿Qué archivos esperas que cree? *(Escribe nombres exactos).*
+**Joel:**
 
-**Tu predicción:** 
-*   **Joel:** `models/plato.js`, `controllers/platoController.js`, `routes/platoRoutes.js`, `models/mesa.js`, `controllers/mesaController.js`, `routes/mesaRoutes.js`, `models/pedido.js`, `controllers/pedidoController.js`, `routes/pedidoRoutes.js`
-*   **Paolo:** `src/platos/` conteniendo: `module`, `controller`, `service`, `entity`, `create-dto` y `update-dto`.
+**Paolo:**
 
-# PREDICCIONES 2
+## PREDICCIÓN 4
+Escribir ANTES de ver el resultado:
+La IA necesita crear una tabla intermedia para ManyToMany (pedido_platos). ¿La creará automáticamente con @JoinTable o intentará crear una entidad separada? ¿Modificará plato.entity.ts para agregar el @ManyToMany inverso?
 
-## ✍️ Predicción — Bloque B
-### Mesas tiene un enum de estados y un campo único (numero). ¿Qué archivos extra crees que la IA creará que NO creó para Platos? ¿Creará un archivo para el enum?
+**Joel:**
 
-**Tu predicción:** 
-*   **Joel:** En el caso de las mesas, la IA creará un archivo separado para el enum `EstadoMesa` dado que es un tipo de dato específico del módulo.
-*   **Paolo:** Tal como lo definimos en el prompt brindado en el documento, mesas contara con enums de :  DISPONIBLE = 'disponible',
-  OCUPADA = 'ocupada',
-  RESERVADA = 'reservada', a diferencia de platos este tiene un solo valor, booleano y estado mesa esos 3 string
+**Paolo:**
+
