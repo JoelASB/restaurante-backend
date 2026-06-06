@@ -3,4 +3,4 @@ Comandas depende de Pedidos, que depende de Mesas y Platos. ¿La IA importará s
 
 **Joel:** La IA importara solo PedidosModule.
 
-**Paolo:** 
+**Paolo:**  solo importara pedidos module para cargar relaciones anidadadas como pedidomesa o pedidoplatos
