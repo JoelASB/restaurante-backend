@@ -1,35 +1,35 @@
 ## FEEDBACK — DIA3
 1. ¿Las relaciones (ManyToOne, ManyToMany) fueron difíciles para la IA o las hizo bien?
-**Joel:**
+**Joel:** Las hizo correctamente.
 
-**Paolo:**
+**Paolo:** 
 2. ¿La IA rompió Platos o Mesas al crear Pedidos?
 
-**Joel:**
+**Joel:** No, no rompio nada.
 
 **Paolo:**
 3. ¿Los comandos curl para testing fueron útiles?
 
-**Joel:**
+**Joel:** Si, fueron utiles.
 
 **Paolo:**
 4. ¿La regla de los 3 intentos es clara? ¿La aplicaron?
 
-**Joel:**
+**Joel:** Si, fue bastante clara.
 
-**Paolo:**
+**Paolo:** 
 5. ¿Swagger fue fácil de configurar?
 
-**Joel:**
+**Joel:** Si, fue bastante facil de configurar.
 
 **Paolo:**
 6. ¿Tiempo total del día?
 
-**Joel:**
+**Joel:** Nos tomó de 3 a 4  horas.
 
 **Paolo:**
 7. ¿Qué debería mejorar este documento?
 
-**Joel:**
+**Joel:** De momento no hay observaciones.
 
 **Paolo:**
