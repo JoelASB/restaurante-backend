@@ -7,6 +7,7 @@ import { PlatosModule } from './platos/platos.module';
 import { MesasModule } from './mesas/mesas.module';
 import { ComandasModule } from './comandas/comandas.module';
 import { PedidosModule } from './pedidos/pedidos.module';
+import { TicketsModule } from './tickets/tickets.module';
 
 @Module({
   imports: [
@@ -20,6 +21,7 @@ import { PedidosModule } from './pedidos/pedidos.module';
     MesasModule,
     PedidosModule,
     ComandasModule,
+    TicketsModule,
   ],
   controllers: [AppController],
   providers: [AppService],
